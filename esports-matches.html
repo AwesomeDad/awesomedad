@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MonsterPlay | Page Not Found</title>
+        <title>MonsterPlay | eSports Matches</title>
         <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
         <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
         <meta name="author" content="nK">
@@ -221,7 +221,7 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="mpl-dropdown">
+                        <li class="mpl-dropdown active">
                             <a href="esports-teams.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> eSports </span>
                             </a>
@@ -243,7 +243,7 @@
                                                 <span class="mpl-nav-link-name"> Tournaments </span>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="active">
                                             <a href="esports-matches.html" class="mpl-nav-link">
                                                 <span class="mpl-nav-link-name"> Matches </span>
                                             </a>
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mpl-dropdown active">
+                        <li class="mpl-dropdown">
                             <a href="forums.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> Pages </span>
                             </a>
@@ -454,7 +454,7 @@
                                             <span class="mpl-nav-link-name"> Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> 404 </span>
                                         </a>
@@ -787,8 +787,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a href="esports-teams.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
+                        <li class="active">
+                            <a href="esports-teams.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
                                 <span class="mpl-nav-link-name">eSports</span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -808,7 +808,7 @@
                                             <span class="mpl-nav-link-name">Tournaments </span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="esports-matches.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">Matches </span>
                                         </a>
@@ -950,8 +950,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="active">
-                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
+                        <li>
+                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
                                 <span class="mpl-nav-link-name">Pages</span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -1010,7 +1010,7 @@
                                             <span class="mpl-nav-link-name">Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">404 </span>
                                         </a>
@@ -1091,33 +1091,412 @@
         <div class="content-wrap">
             <div class="mpl-navbar-mobile-overlay"></div>
             <div>
-                <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                     <div class="mpl-image" data-speed="0.8">
-                        <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
+                        <img src="assets/images/dark/bg-banner-3.jpg" alt="" class="jarallax-img">
                     </div>
                     <div class="mpl-banner-content mpl-box-lg">
-                        <div class="container text-center">
-                            <div class="row justify-content-center" data-sr="404" data-sr-interval="200" data-sr-duration="1200" data-sr-distance="20">
-                                <div class="col-12 col-lg-8">
-                                    <h1 class="display-1 mb-60" data-sr-item="404">Page Not Found</h1>
-                                    <p class="lead text-white mb-60" data-sr-item="404">The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you are looking for.</p>
-                                    <div class="row hgap-xs justify-content-center">
-                                        <div class="col col-md-6 col-lg-6 col-xl-5" data-sr-item="404">
-                                            <input class="form-control" type="text" id="search" name="search" placeholder="Site Search"><span class="form-control-bg"></span>
+                        <div class="container">
+                            <h1 class="display-1 mb-0">Matches</h1>
+                        </div>
+                    </div>
+                </section>
+                <div class="mpl-box-md">
+                    <div class="container">
+                        <div class="row hgap-lg vgap-lg">
+                            <div class="col-lg mpl-content">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">eSports Matches</li>
+                                    </ol>
+                                </nav>
+                                <ul class="cyberpress-matchs-archive" data-sr="matches" data-sr-duration="1000">
+                                    <li class="cyberpress-match" data-sr-item="matches">
+                                        <div class="cyberpress-match-participants">
+                                            <div class="cyberpress-match-participant">
+                                                <div class="cyberpress-match-participant-thumbnail">
+                                                    <a href="esports-single-team.html">
+                                                        <span class="mpl-image">
+                                                            <img src="assets/images/esports/queend_300x300.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <h2 class="cyberpress-match-participant-title h4">
+                                                    <a href="esports-single-team.html"> Queend <img src="assets/images/flags/ch.svg" alt="ch" class="cyberpress-flag-img">
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <div class="cyberpress-match-participant-vs">
+                                                <a href="esports-single-match.html">
+                                                    <span class="cyberpress-match-participant-time-start">January 15, 2020 4:00 pm</span>
+                                                    <span class="cyberpress-match-points h3">VS</span>
+                                                </a>
+                                            </div>
+                                            <div class="cyberpress-match-participant">
+                                                <div class="cyberpress-match-participant-thumbnail">
+                                                    <a href="esports-single-team.html">
+                                                        <span class="mpl-image">
+                                                            <img src="assets/images/esports/military-skull_300x300.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <h2 class="cyberpress-match-participant-title h4">
+                                                    <a href="esports-single-team.html"> Military Skull <img src="assets/images/flags/br.svg" alt="br" class="cyberpress-flag-img">
+                                                    </a>
+                                                </h2>
+                                            </div>
                                         </div>
-                                        <div class="col-auto">
-                                            <a href="#" class="btn btn-md" data-sr-item="404">
+                                        <ul class="cyberpress-match-info">
+                                            <li>
+                                                <a href="#" class="cyberpress-game-inline-link">
+                                                    <img src="assets/images/esports/game-cs-go.svg" alt="">Counter-Strike: Global Offensive </a>
+                                            </li>
+                                            <li>
+                                                <a href="esports-single-tournament.html" class="cyberpress-tournament-inline-link">
+                                                    <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5 17H4C3.46957 17 2.96086 16.7893 2.58579 16.4142C2.21071 16.0391 2 15.5304 2 15V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V15C22 15.5304 21.7893 16.0391 21.4142 16.4142C21.0391 16.7893 20.5304 17 20 17H19M12 15L17 21H7L12 15Z" />
+                                                    </svg>Esports Championship Series Season 8 </a>
+                                            </li>
+                                            <li>
                                                 <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" />
-                                                </svg>
-                                            </a>
+                                                    <path d="M5 17H4C3.46957 17 2.96086 16.7893 2.58579 16.4142C2.21071 16.0391 2 15.5304 2 15V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V15C22 15.5304 21.7893 16.0391 21.4142 16.4142C21.0391 16.7893 20.5304 17 20 17H19M12 15L17 21H7L12 15Z" />
+                                                </svg>Stage Semifinal </li>
+                                        </ul>
+                                    </li>
+                                    <li class="cyberpress-match" data-sr-item="matches">
+                                        <div class="cyberpress-match-participants">
+                                            <div class="cyberpress-match-participant">
+                                                <div class="cyberpress-match-participant-thumbnail">
+                                                    <a href="esports-single-team.html">
+                                                        <span class="mpl-image">
+                                                            <img src="assets/images/esports/reaper_300x300.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <h2 class="cyberpress-match-participant-title h4">
+                                                    <a href="esports-single-team.html"> Reaper <img src="assets/images/flags/us.svg" alt="ch" class="cyberpress-flag-img">
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                            <div class="cyberpress-match-participant-vs">
+                                                <a href="esports-single-match.html">
+                                                    <span class="cyberpress-match-participant-time-start">January 6, 2020 3:00 pm</span>
+                                                    <span class="cyberpress-match-points h3">11:10</span>
+                                                </a>
+                                            </div>
+                                            <div class="cyberpress-match-participant">
+                                                <div class="cyberpress-match-participant-thumbnail">
+                                                    <a href="esports-single-team.html">
+                                                        <span class="mpl-image">
+                                                            <img src="assets/images/esports/military-skull_300x300.png" alt="">
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                                <h2 class="cyberpress-match-participant-title h4">
+                                                    <a href="esports-single-team.html"> Military Skull <img src="assets/images/flags/br.svg" alt="br" class="cyberpress-flag-img">
+                                                    </a>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        <ul class="cyberpress-match-info">
+                                            <li>
+                                                <a href="#" class="cyberpress-game-inline-link">
+                                                    <img src="assets/images/esports/game-dota-2.svg" alt="">Dota 2 </a>
+                                            </li>
+                                            <li>
+                                                <a href="esports-single-tournament.html" class="cyberpress-tournament-inline-link">
+                                                    <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M5 17H4C3.46957 17 2.96086 16.7893 2.58579 16.4142C2.21071 16.0391 2 15.5304 2 15V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V15C22 15.5304 21.7893 16.0391 21.4142 16.4142C21.0391 16.7893 20.5304 17 20 17H19M12 15L17 21H7L12 15Z" />
+                                                    </svg>2019 World Championship </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-auto-lg mpl-sidebar" data-sr=widget data-sr-duration=1200 data-sr-distance=20>
+                                <div class="mpl-widget mpl-widget-search">
+                                    <div data-sr-item="widget">
+                                        <input type="text" class="form-control" placeholder="Enter a search term">
+                                        <div class="form-control-bg"></div>
+                                    </div>
+                                </div>
+                                <div class="mpl-widget mpl-widget-matches">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Recent Matches</h4>
+                                    <div role="tabpanel" data-sr-item="widget">
+                                        <ul class="nav nav-tabs nav-tabs-sm" role="tablist">
+                                            <li role="presentation" class="nav-item"><a href="#all_matches" class="nav-link active" aria-controls="all_matches" role="tab" data-toggle="tab" aria-selected="true">All</a></li>
+                                            <li role="presentation" class="nav-item"><a href="#cs_matches" class="nav-link" aria-controls="cs_matches" role="tab" data-toggle="tab" aria-selected="false">CS</a></li>
+                                            <li role="presentation" class="nav-item"><a href="#dota2_matches" class="nav-link" aria-controls="dota2_matches" role="tab" data-toggle="tab" aria-selected="false">Dota 2</a></li>
+                                            <li role="presentation" class="nav-item"><a href="#lol_matches" class="nav-link" aria-controls="lol_matches" role="tab" data-toggle="tab" aria-selected="false">LOL</a></li>
+                                        </ul>
+                                        <div class="tab-content tab-content-frame">
+                                            <div role="tabpanel" class="tab-pane fade show active" id="all_matches">
+                                                <ul class="cyberpress-matchs-archive">
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/queend_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Queend</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 15, 2020 4:00 pm</span>
+                                                                    <span class="cyberpress-match-points">VS</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/military-skull_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Military Skull</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/wolves_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Wolves</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 8, 2020 12:00 pm</span>
+                                                                    <span class="cyberpress-match-points">13:15</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/reaper_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Reaper</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/reaper_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Reaper</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 6, 2020 3:00 pm</span>
+                                                                    <span class="cyberpress-match-points">11:10</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/military-skull_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Military Skull</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="cs_matches">
+                                                <ul class="cyberpress-matchs-archive">
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/queend_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Queend</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 15, 2020 4:00 pm</span>
+                                                                    <span class="cyberpress-match-points">VS</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/military-skull_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Military Skull</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="dota2_matches">
+                                                <ul class="cyberpress-matchs-archive">
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/wolves_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Wolves</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 8, 2020 12:00 pm</span>
+                                                                    <span class="cyberpress-match-points">13:15</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/reaper_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Reaper</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane fade" id="lol_matches">
+                                                <ul class="cyberpress-matchs-archive">
+                                                    <li class="cyberpress-match">
+                                                        <div class="cyberpress-match-participants">
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/reaper_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Reaper</a>
+                                                                    </h2>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant-vs">
+                                                                <a href="esports-single-match.html">
+                                                                    <span class="cyberpress-match-participant-time-start">January 6, 2020 3:00 pm</span>
+                                                                    <span class="cyberpress-match-points">11:10</span>
+                                                                </a>
+                                                            </div>
+                                                            <div class="cyberpress-match-participant">
+                                                                <div class="cyberpress-match-participant-thumbnail">
+                                                                    <a href="esports-single-team.html">
+                                                                        <span class="mpl-image">
+                                                                            <img src="assets/images/esports/military-skull_120x120.png" alt="">
+                                                                        </span>
+                                                                    </a>
+                                                                </div>
+                                                                <h6 class="cyberpress-match-participant-title">
+                                                                    <a href="esports-single-team.html">Military Skull</a>
+                                                                    </h2>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="mpl-widget mpl-widget-match">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Next Match</h4>
+                                    <ul class="cyberpress-matchs-archive" data-sr-item="widget">
+                                        <li class="cyberpress-match">
+                                            <div class="cyberpress-match-participants">
+                                                <div class="cyberpress-match-participant">
+                                                    <div class="cyberpress-match-participant-thumbnail">
+                                                        <a href="esports-single-team.html">
+                                                            <span class="mpl-image">
+                                                                <img src="assets/images/esports/wolves_120x120.png" alt="">
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <h6 class="cyberpress-match-participant-title">
+                                                        <a href="esports-single-team.html">Wolves</a>
+                                                        </h2>
+                                                </div>
+                                                <div class="cyberpress-match-participant-vs">
+                                                    <a href="esports-single-match.html">
+                                                        <span class="cyberpress-match-participant-time-start">January 8, 2020 12:00 pm</span>
+                                                        <span class="cyberpress-match-points">13:15</span>
+                                                    </a>
+                                                </div>
+                                                <div class="cyberpress-match-participant">
+                                                    <div class="cyberpress-match-participant-thumbnail">
+                                                        <a href="esports-single-team.html">
+                                                            <span class="mpl-image">
+                                                                <img src="assets/images/esports/reaper_120x120.png" alt="">
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <h6 class="cyberpress-match-participant-title">
+                                                        <a href="esports-single-team.html">Reaper</a>
+                                                        </h2>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
                 <!-- Footer -->
                 <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
                     <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">

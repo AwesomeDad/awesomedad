@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MonsterPlay | Page Not Found</title>
+        <title>MonsterPlay | Topics</title>
         <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
         <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
         <meta name="author" content="nK">
@@ -400,7 +400,7 @@
                             </a>
                             <div class="mpl-dropdown-menu">
                                 <ul class="mpl-navbar-nav">
-                                    <li class="mpl-dropdown">
+                                    <li class="mpl-dropdown active">
                                         <a href="forums.html" class="mpl-nav-link" role="button">
                                             <span class="mpl-nav-link-name"> Forum </span>
                                         </a>
@@ -411,7 +411,7 @@
                                                         <span class="mpl-nav-link-name"> Forums </span>
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <li class="active">
                                                     <a href="forums-topics.html" class="mpl-nav-link">
                                                         <span class="mpl-nav-link-name"> Topics </span>
                                                     </a>
@@ -454,7 +454,7 @@
                                             <span class="mpl-nav-link-name"> Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> 404 </span>
                                         </a>
@@ -956,8 +956,8 @@
                             </a>
                             <div class="mpl-navbar-collapse collapse">
                                 <ul class="mpl-navbar-nav">
-                                    <li>
-                                        <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
+                                    <li class="active">
+                                        <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
                                             <span class="mpl-nav-link-name">Forum</span>
                                         </a>
                                         <div class="mpl-navbar-collapse collapse">
@@ -967,7 +967,7 @@
                                                         <span class="mpl-nav-link-name">Forums </span>
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <li class="active">
                                                     <a href="forums-topics.html" class="mpl-nav-link">
                                                         <span class="mpl-nav-link-name">Topics </span>
                                                     </a>
@@ -1010,7 +1010,7 @@
                                             <span class="mpl-nav-link-name">Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">404 </span>
                                         </a>
@@ -1091,33 +1091,180 @@
         <div class="content-wrap">
             <div class="mpl-navbar-mobile-overlay"></div>
             <div>
-                <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                     <div class="mpl-image" data-speed="0.8">
                         <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
                     </div>
                     <div class="mpl-banner-content mpl-box-lg">
-                        <div class="container text-center">
-                            <div class="row justify-content-center" data-sr="404" data-sr-interval="200" data-sr-duration="1200" data-sr-distance="20">
-                                <div class="col-12 col-lg-8">
-                                    <h1 class="display-1 mb-60" data-sr-item="404">Page Not Found</h1>
-                                    <p class="lead text-white mb-60" data-sr-item="404">The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you are looking for.</p>
-                                    <div class="row hgap-xs justify-content-center">
-                                        <div class="col col-md-6 col-lg-6 col-xl-5" data-sr-item="404">
-                                            <input class="form-control" type="text" id="search" name="search" placeholder="Site Search"><span class="form-control-bg"></span>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="#" class="btn btn-md" data-sr-item="404">
-                                                <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" />
-                                                </svg>
-                                            </a>
-                                        </div>
+                        <div class="container">
+                            <h1 class="display-1 mb-0">Topics</h1>
+                        </div>
+                    </div>
+                </section>
+                <div class="mpl-box-md">
+                    <div class="container">
+                        <div class="row hgap-lg vgap-lg">
+                            <div class="col-lg mpl-content">
+                                <nav class="mb-60" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="forums.html">Forums</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Games</li>
+                                    </ol>
+                                </nav>
+                                <!-- Forums List -->
+                                <ul class="mpl-forum" data-sr="forum" data-sr-duration="1000" data-sr-distance="20">
+                                    <li class="mpl-forum-header" data-sr-item="forum">
+                                        <ul>
+                                            <li class="cell-icon"></li>
+                                            <li class="cell-info">Topic</li>
+                                            <li class="cell-topic-count">Voices</li>
+                                            <li class="cell-reply-count">Posts</li>
+                                            <li class="cell-freshness">Freshness</li>
+                                        </ul>
+                                    </li>
+                                    <li class="mpl-forum-body">
+                                        <ul class="mpl-forum-sticky" data-sr-item="forum">
+                                            <li class="cell-icon"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" />
+                                                </svg></li>
+                                            <li class="cell-info">
+                                                <a href="forums-single-topic.html" class="title h4">Sticky Topic</a>
+                                                <div class="description">
+                                                    <span>Started by: <a href="#">John Doe</a></span>
+                                                </div>
+                                            </li>
+                                            <li class="cell-topic-count">7</li>
+                                            <li class="cell-reply-count">21</li>
+                                            <li class="cell-freshness">
+                                                <a href="#">2 year, 9 months ago</a>
+                                                <span>Last comment: <a href="#">Kristen Bradley</a></span>
+                                            </li>
+                                        </ul>
+                                        <ul data-sr-item="forum">
+                                            <li class="cell-icon"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z" />
+                                                </svg></li>
+                                            <li class="cell-info">
+                                                <a href="forums-single-topic.html" class="title h4">Normal Topic</a>
+                                                <div class="description">
+                                                    <span>Started by: <a href="#">John Doe</a></span>
+                                                </div>
+                                            </li>
+                                            <li class="cell-topic-count">7</li>
+                                            <li class="cell-reply-count">21</li>
+                                            <li class="cell-freshness">
+                                                <a href="#">2 year, 9 months ago</a>
+                                                <span>Last comment: <a href="#">Kristen Bradley</a></span>
+                                            </li>
+                                        </ul>
+                                        <ul data-sr-item="forum">
+                                            <li class="cell-icon"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M22 19C22 19.5304 21.7893 20.0391 21.4142 20.4142C21.0391 20.7893 20.5304 21 20 21H4C3.46957 21 2.96086 20.7893 2.58579 20.4142C2.21071 20.0391 2 19.5304 2 19V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H9L11 6H20C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V19Z" />
+                                                </svg></li>
+                                            <li class="cell-info">
+                                                <a href="forums-single-topic.html" class="title h4">Normal Topic</a>
+                                                <div class="description">
+                                                    <span>Started by: <a href="#">John Doe</a></span>
+                                                </div>
+                                            </li>
+                                            <li class="cell-topic-count">7</li>
+                                            <li class="cell-reply-count">21</li>
+                                            <li class="cell-freshness">
+                                                <a href="#">2 year, 9 months ago</a>
+                                                <span>Last comment: <a href="#">Kristen Bradley</a></span>
+                                            </li>
+                                        </ul>
+                                        <ul class="mpl-forum-closed" data-sr-item="forum">
+                                            <li class="cell-icon"><svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M7 11V7C7 5.67392 7.52678 4.40215 8.46447 3.46447C9.40215 2.52678 10.6739 2 12 2C13.3261 2 14.5979 2.52678 15.5355 3.46447C16.4732 4.40215 17 5.67392 17 7V11M5 11H19C20.1046 11 21 11.8954 21 13V20C21 21.1046 20.1046 22 19 22H5C3.89543 22 3 21.1046 3 20V13C3 11.8954 3.89543 11 5 11Z" />
+                                                </svg></li>
+                                            <li class="cell-info">
+                                                <a href="forums-single-topic.html" class="title h4">Closed Topic</a>
+                                                <div class="description">
+                                                    <span>Started by: <a href="#">John Doe</a></span>
+                                                </div>
+                                            </li>
+                                            <li class="cell-topic-count">7</li>
+                                            <li class="cell-reply-count">21</li>
+                                            <li class="cell-freshness">
+                                                <a href="#">2 year, 9 months ago</a>
+                                                <span>Last comment: <a href="#">Kristen Bradley</a></span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-auto-lg mpl-sidebar" data-sr=widget data-sr-duration=1200 data-sr-distance=20>
+                                <div class="mpl-widget mpl-widget-search">
+                                    <div data-sr-item="widget">
+                                        <input type="text" class="form-control" placeholder="Enter a search term">
+                                        <div class="form-control-bg"></div>
                                     </div>
+                                </div>
+                                <div class="mpl-widget mpl-widget-categories">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Categories</h4>
+                                    <ul class="list-unstyled" data-sr-item="widget">
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">Audio</a></li>
+                                        <li><a href="#">Photo</a></li>
+                                        <li><a href="#">Video</a></li>
+                                        <li><a href="#">Controllers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mpl-widget mpl-widget-products">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Popular Products</h4>
+                                    <ul class="list-unstyled" data-sr-item="widget">
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Gamepad MPL</span>
+                                                    <span class="mpl-price"> $120.00 </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-2-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Headphones MPL</span>
+                                                    <span class="mpl-price"> $84.99 <span>$114.99</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-3-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Headphones MPS</span>
+                                                    <span class="mpl-price"> $74.99 </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mpl-widget mpl-widget-instagram">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Instagram</h4>
+                                    <div class="mpl-instagram row hgap-xs vgap-xs" data-sr-item="widget" data-instagram-quality="md" data-instagram-column-class="col-6 col-sm-4" data-instagram-count="6"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
                 <!-- Footer -->
                 <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
                     <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">

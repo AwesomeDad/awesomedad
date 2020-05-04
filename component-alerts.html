@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MonsterPlay | Page Not Found</title>
+        <title>MonsterPlay | Component Alerts</title>
         <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
         <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
         <meta name="author" content="nK">
@@ -279,7 +279,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mpl-dropdown">
+                        <li class="mpl-dropdown active">
                             <a href="component-buttons.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> Components </span>
                             </a>
@@ -343,7 +343,7 @@
                                                 <span class="mpl-nav-link-name"> Badges </span>
                                             </a>
                                         </li>
-                                        <li>
+                                        <li class="active">
                                             <a href="component-alerts.html" class="mpl-nav-link">
                                                 <span class="mpl-nav-link-name"> Alerts </span>
                                             </a>
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mpl-dropdown active">
+                        <li class="mpl-dropdown">
                             <a href="forums.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> Pages </span>
                             </a>
@@ -454,7 +454,7 @@
                                             <span class="mpl-nav-link-name"> Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> 404 </span>
                                         </a>
@@ -841,8 +841,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a href="component-buttons.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
+                        <li class="active">
+                            <a href="component-buttons.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
                                 <span class="mpl-nav-link-name">Components</span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -902,7 +902,7 @@
                                             <span class="mpl-nav-link-name">Badges </span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="component-alerts.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">Alerts </span>
                                         </a>
@@ -950,8 +950,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="active">
-                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
+                        <li>
+                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
                                 <span class="mpl-nav-link-name">Pages</span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -1010,7 +1010,7 @@
                                             <span class="mpl-nav-link-name">Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">404 </span>
                                         </a>
@@ -1091,33 +1091,37 @@
         <div class="content-wrap">
             <div class="mpl-navbar-mobile-overlay"></div>
             <div>
-                <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                     <div class="mpl-image" data-speed="0.8">
                         <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
                     </div>
                     <div class="mpl-banner-content mpl-box-lg">
-                        <div class="container text-center">
-                            <div class="row justify-content-center" data-sr="404" data-sr-interval="200" data-sr-duration="1200" data-sr-distance="20">
-                                <div class="col-12 col-lg-8">
-                                    <h1 class="display-1 mb-60" data-sr-item="404">Page Not Found</h1>
-                                    <p class="lead text-white mb-60" data-sr-item="404">The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you are looking for.</p>
-                                    <div class="row hgap-xs justify-content-center">
-                                        <div class="col col-md-6 col-lg-6 col-xl-5" data-sr-item="404">
-                                            <input class="form-control" type="text" id="search" name="search" placeholder="Site Search"><span class="form-control-bg"></span>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="#" class="btn btn-md" data-sr-item="404">
-                                                <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="container">
+                            <h1 class="display-1 mb-0">Alerts</h1>
                         </div>
                     </div>
                 </section>
+                <div class="container mpl-box-md">
+                    <div class="alert" role="alert">
+                        <strong>Well done!</strong> You successfully read this important alert message. </div>
+                    <div class="alert alert-primary" role="alert">
+                        <strong>Well done!</strong> You successfully read this important alert message. </div>
+                    <div class="alert alert-success" role="alert">
+                        <strong>Well done!</strong> You successfully read this important alert message. </div>
+                    <div class="alert alert-info" role="alert">
+                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important. </div>
+                    <div class="alert alert-warning" role="alert">
+                        <strong>Warning!</strong> Better check yourself, you're not looking too good. </div>
+                    <div class="alert alert-danger mb-60" role="alert">
+                        <strong>Oh snap!</strong> Change a few things up and try submitting again. </div>
+                    <div class="alert alert-warning alert-dismissible mb-0" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 6L6 18M6 6L18 18" />
+                            </svg>
+                        </button>
+                        <strong>Warning!</strong> Better check yourself, you're not looking too good. </div>
+                </div>
                 <!-- Footer -->
                 <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
                     <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">

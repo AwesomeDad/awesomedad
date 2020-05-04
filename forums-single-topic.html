@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MonsterPlay | Page Not Found</title>
+        <title>MonsterPlay | Single Topic</title>
         <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
         <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
         <meta name="author" content="nK">
@@ -400,7 +400,7 @@
                             </a>
                             <div class="mpl-dropdown-menu">
                                 <ul class="mpl-navbar-nav">
-                                    <li class="mpl-dropdown">
+                                    <li class="mpl-dropdown active">
                                         <a href="forums.html" class="mpl-nav-link" role="button">
                                             <span class="mpl-nav-link-name"> Forum </span>
                                         </a>
@@ -416,7 +416,7 @@
                                                         <span class="mpl-nav-link-name"> Topics </span>
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <li class="active">
                                                     <a href="forums-single-topic.html" class="mpl-nav-link">
                                                         <span class="mpl-nav-link-name"> Single Topic </span>
                                                     </a>
@@ -454,7 +454,7 @@
                                             <span class="mpl-nav-link-name"> Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> 404 </span>
                                         </a>
@@ -956,8 +956,8 @@
                             </a>
                             <div class="mpl-navbar-collapse collapse">
                                 <ul class="mpl-navbar-nav">
-                                    <li>
-                                        <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
+                                    <li class="active">
+                                        <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
                                             <span class="mpl-nav-link-name">Forum</span>
                                         </a>
                                         <div class="mpl-navbar-collapse collapse">
@@ -972,7 +972,7 @@
                                                         <span class="mpl-nav-link-name">Topics </span>
                                                     </a>
                                                 </li>
-                                                <li>
+                                                <li class="active">
                                                     <a href="forums-single-topic.html" class="mpl-nav-link">
                                                         <span class="mpl-nav-link-name">Single Topic </span>
                                                     </a>
@@ -1010,7 +1010,7 @@
                                             <span class="mpl-nav-link-name">Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">404 </span>
                                         </a>
@@ -1091,33 +1091,144 @@
         <div class="content-wrap">
             <div class="mpl-navbar-mobile-overlay"></div>
             <div>
-                <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                     <div class="mpl-image" data-speed="0.8">
                         <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
                     </div>
                     <div class="mpl-banner-content mpl-box-lg">
-                        <div class="container text-center">
-                            <div class="row justify-content-center" data-sr="404" data-sr-interval="200" data-sr-duration="1200" data-sr-distance="20">
-                                <div class="col-12 col-lg-8">
-                                    <h1 class="display-1 mb-60" data-sr-item="404">Page Not Found</h1>
-                                    <p class="lead text-white mb-60" data-sr-item="404">The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you are looking for.</p>
-                                    <div class="row hgap-xs justify-content-center">
-                                        <div class="col col-md-6 col-lg-6 col-xl-5" data-sr-item="404">
-                                            <input class="form-control" type="text" id="search" name="search" placeholder="Site Search"><span class="form-control-bg"></span>
+                        <div class="container">
+                            <h1 class="display-1 mb-0">Single Topic</h1>
+                        </div>
+                    </div>
+                </section>
+                <div class="mpl-box-md">
+                    <div class="container">
+                        <div class="row hgap-lg vgap-lg">
+                            <div class="col-lg mpl-content">
+                                <nav class="mb-60" aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item"><a href="forums.html">Forums</a></li>
+                                        <li class="breadcrumb-item"><a href="forums-topics.html">Games</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Single Topic</li>
+                                    </ol>
+                                </nav>
+                                <ul class="mpl-forum mpl-forum-topic">
+                                    <li>
+                                        <div class="mpl-forum-topic-author">
+                                            <span class="mpl-image">
+                                                <img src="assets/images/avatar-user-1.jpg" alt="">
+                                            </span>
+                                            <div class="mpl-forum-topic-author-name h5" title="Kristen Bradley">
+                                                <a href="#">Kristen Bradley</a>
+                                            </div>
+                                            <div class="mpl-forum-topic-author-role">Keymaster</div>
                                         </div>
-                                        <div class="col-auto">
-                                            <a href="#" class="btn btn-md" data-sr-item="404">
-                                                <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" />
-                                                </svg>
-                                            </a>
+                                        <div class="mpl-forum-topic-content">
+                                            <p>Suspicio? Bene ... tunc ibimus? Quis uh ... CONEXUS locus his diebus? Quisque semper aliquid videtur, in volutpat mauris. Nolo enim dicere. Vobis neque ab aliis. Ego feci memetipsum explicans. Gus mortuus est. Lorem opus habeo.</p>
+                                            <p>Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive 'been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore?</p>
+                                            <div class="mpl-forum-topic-attachments">
+                                                <a href="#">monsterplay-free.zip</a>
+                                                <br> (14.86 MiB) Downloaded 185 times </div>
                                         </div>
+                                        <div class="mpl-forum-topic-footer">
+                                            <span class="mpl-forum-topic-date">29th January 2020 at 11:36 am</span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Edit</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Close</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Stick</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Merge</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Trash</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Spam</a>
+                                            </span>
+                                            <span class="mpl-forum-action-btn">
+                                                <a href="#">Reply</a>
+                                            </span>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <p class="mt-40">Viewing 1 post (of 1 total)</p>
+                            </div>
+                            <div class="col-auto-lg mpl-sidebar" data-sr=widget data-sr-duration=1200 data-sr-distance=20>
+                                <div class="mpl-widget mpl-widget-search">
+                                    <div data-sr-item="widget">
+                                        <input type="text" class="form-control" placeholder="Enter a search term">
+                                        <div class="form-control-bg"></div>
                                     </div>
+                                </div>
+                                <div class="mpl-widget mpl-widget-categories">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Categories</h4>
+                                    <ul class="list-unstyled" data-sr-item="widget">
+                                        <li><a href="#">All</a></li>
+                                        <li><a href="#">Audio</a></li>
+                                        <li><a href="#">Photo</a></li>
+                                        <li><a href="#">Video</a></li>
+                                        <li><a href="#">Controllers</a></li>
+                                    </ul>
+                                </div>
+                                <div class="mpl-widget mpl-widget-products">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Popular Products</h4>
+                                    <ul class="list-unstyled" data-sr-item="widget">
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Gamepad MPL</span>
+                                                    <span class="mpl-price"> $120.00 </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-2-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Headphones MPL</span>
+                                                    <span class="mpl-price"> $84.99 <span>$114.99</span>
+                                                    </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="shop-product.html" class="mpl-product-widget mpl-product-item">
+                                                <span class="mpl-product-image">
+                                                    <span class="mpl-image">
+                                                        <img src="assets/images/dark/product-3-260x200.jpg" alt="">
+                                                    </span>
+                                                </span>
+                                                <span class="mpl-product-content">
+                                                    <span class="mpl-product-title text-truncate h5">Headphones MPS</span>
+                                                    <span class="mpl-price"> $74.99 </span>
+                                                </span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="mpl-widget mpl-widget-instagram">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Instagram</h4>
+                                    <div class="mpl-instagram row hgap-xs vgap-xs" data-sr-item="widget" data-instagram-quality="md" data-instagram-column-class="col-6 col-sm-4" data-instagram-count="6"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
                 <!-- Footer -->
                 <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
                     <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">

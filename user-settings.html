@@ -13,7 +13,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>MonsterPlay | Page Not Found</title>
+        <title>MonsterPlay | User Settings</title>
         <meta name="description" content="MonsterPlay - Superpower for Gaming Websites">
         <meta name="keywords" content="gaming, game, esports, community, template, html, bootstrap, webpack">
         <meta name="author" content="nK">
@@ -394,7 +394,7 @@
                                 </div>
                             </div>
                         </li>
-                        <li class="mpl-dropdown active">
+                        <li class="mpl-dropdown">
                             <a href="forums.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> Pages </span>
                             </a>
@@ -454,7 +454,7 @@
                                             <span class="mpl-nav-link-name"> Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> 404 </span>
                                         </a>
@@ -469,7 +469,7 @@
                         </li>
                     </ul>
                     <ul class="mpl-navbar-nav mpl-navbar-right">
-                        <li class="mpl-dropdown">
+                        <li class="mpl-dropdown active">
                             <a href="user-activity.html" class="mpl-nav-link" role="button">
                                 <span class="mpl-nav-link-name"> s1mple<span class="badge badge-brand">8</span>
                                 </span>
@@ -492,7 +492,7 @@
                                             </span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="user-settings.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name"> Settings </span>
                                         </a>
@@ -950,8 +950,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li class="active">
-                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
+                        <li>
+                            <a href="forums.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
                                 <span class="mpl-nav-link-name">Pages</span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -1010,7 +1010,7 @@
                                             <span class="mpl-nav-link-name">Search </span>
                                         </a>
                                     </li>
-                                    <li class="active">
+                                    <li>
                                         <a href="404.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">404 </span>
                                         </a>
@@ -1023,8 +1023,8 @@
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a href="user-activity.html" class="mpl-nav-link mpl-nav-link-collapse mpl-collapsed" role="button">
+                        <li class="active">
+                            <a href="user-activity.html" class="mpl-nav-link mpl-nav-link-collapse" role="button">
                                 <span class="mpl-nav-link-name">s1mple<span class="badge badge-brand">8</span></span>
                             </a>
                             <div class="mpl-navbar-collapse collapse">
@@ -1045,7 +1045,7 @@
                                             </span>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li class="active">
                                         <a href="user-settings.html" class="mpl-nav-link">
                                             <span class="mpl-nav-link-name">Settings </span>
                                         </a>
@@ -1091,33 +1091,211 @@
         <div class="content-wrap">
             <div class="mpl-navbar-mobile-overlay"></div>
             <div>
-                <section class="mpl-banner mpl-banner-top mpl-banner-parallax">
+                <section class="mpl-banner mpl-banner-top mpl-banner-parallax mpl-banner-small">
                     <div class="mpl-image" data-speed="0.8">
-                        <img src="assets/images/dark/bg-banner-1.jpg" alt="" class="jarallax-img">
+                        <img src="assets/images/dark/bg-banner-2.jpg" alt="" class="jarallax-img">
                     </div>
                     <div class="mpl-banner-content mpl-box-lg">
-                        <div class="container text-center">
-                            <div class="row justify-content-center" data-sr="404" data-sr-interval="200" data-sr-duration="1200" data-sr-distance="20">
-                                <div class="col-12 col-lg-8">
-                                    <h1 class="display-1 mb-60" data-sr-item="404">Page Not Found</h1>
-                                    <p class="lead text-white mb-60" data-sr-item="404">The page you are looking for no longer exists. Perhaps you can return back to the site's homepage and see if you can find what you are looking for.</p>
-                                    <div class="row hgap-xs justify-content-center">
-                                        <div class="col col-md-6 col-lg-6 col-xl-5" data-sr-item="404">
-                                            <input class="form-control" type="text" id="search" name="search" placeholder="Site Search"><span class="form-control-bg"></span>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="#" class="btn btn-md" data-sr-item="404">
+                        <div class="container">
+                            <div class="mpl-user" data-sr="user-header" data-sr-interval="120" data-sr-duration="1200" data-sr-distance="20">
+                                <div class="mpl-user-wrap" data-sr-item="user-header">
+                                    <div class="media">
+                                        <div class="media-head">
+                                            <a href="assets/images/photo-user.jpg" class="media-image" data-fancybox data-animation-effect="fade">
+                                                <span class="mpl-image">
+                                                    <img src="assets/images/avatar-user-2.jpg" alt="">
+                                                </span>
                                                 <svg class="icon" viewBox="0 0 24 24" stroke="currentColor" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M21 21L16.65 16.65M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" />
+                                                    <path d="M8 3H5C4.46957 3 3.96086 3.21071 3.58579 3.58579C3.21071 3.96086 3 4.46957 3 5V8M21 8V5C21 4.46957 20.7893 3.96086 20.4142 3.58579C20.0391 3.21071 19.5304 3 19 3H16M16 21H19C19.5304 21 20.0391 20.7893 20.4142 20.4142C20.7893 20.0391 21 19.5304 21 19V16M3 16V19C3 19.5304 3.21071 20.0391 3.58579 20.4142C3.96086 20.7893 4.46957 21 5 21H8" />
                                                 </svg>
                                             </a>
+                                            <div>
+                                                <div class="media-title h5">s1mple</div>
+                                                <div class="media-subtitle">Los Angeles</div>
+                                            </div>
                                         </div>
+                                    </div>
+                                    <ul class="mpl-user-activity">
+                                        <li>
+                                            <span class="h5">69</span><span>Posts</span>
+                                        </li>
+                                        <li>
+                                            <span class="h5">12</span><span>Games</span>
+                                        </li>
+                                        <li>
+                                            <span class="h5">689</span><span>Followers</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <ul class="mpl-user-links">
+                                    <li data-sr-item="user-header">
+                                        <a href="#">Add friend</a>
+                                    </li>
+                                    <li data-sr-item="user-header">
+                                        <a href="#">Private Message</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <div class="container" data-sr="user-links" data-sr-interval="120" data-sr-duration="1000" data-sr-distance="20">
+                    <ul class="mpl-user-navigation mpl-carousel" data-gap="0" data-slides="auto">
+                        <li data-sr-item="user-links"><a href="user-activity.html">Activity</a></li>
+                        <li data-sr-item="user-links"><a href="user-profile.html">Profile</a></li>
+                        <li data-sr-item="user-links"><a href="user-messages.html">Messages<span class="badge badge-brand">8</span></a></li>
+                        <li class="active" data-sr-item="user-links"><a href="user-settings.html">Settings</a></li>
+                        <li data-sr-item="user-links"><a href="#">Groups</a></li>
+                        <li data-sr-item="user-links"><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="mpl-box-md">
+                    <div class="container">
+                        <div class="row hgap-lg vgap-lg">
+                            <div class="col-lg mpl-content">
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li role="presentation" class="nav-item"><a href="#general" class="nav-link active" aria-controls="general" role="tab" data-toggle="tab" aria-selected="true">General</a></li>
+                                    <li role="presentation" class="nav-item"><a href="#notifications" class="nav-link" aria-controls="notifications" role="tab" data-toggle="tab" aria-selected="false">Notifications</a></li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div role="tabpanel" class="tab-pane fade show active" id="general">
+                                        <form action="#" data-sr="user-setting" data-sr-duration="1000" data-sr-distance="20">
+                                            <div class="mpl-snippet-fill" data-sr-item="user-setting">
+                                                <h2>Change Password</h2>
+                                                <div class="row hgap-sm vgap-sm">
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_password">Current Password:</label><input class="form-control" type="password" id="setting_password" name="setting_password" placeholder="Current Password"><span class="form-control-bg"></span>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_new_password">New Password:</label><input class="form-control" type="password" id="setting_new_password" name="setting_new_password" placeholder="New Password"><span class="form-control-bg"></span>
+                                                    </div>
+                                                </div>
+                                                <button class="mpl-link mt-30">Change Password</button>
+                                            </div>
+                                            <div class="mpl-snippet-fill" data-sr-item="user-setting">
+                                                <h2>Email</h2>
+                                                <div class="row hgap-sm vgap-sm">
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_email">Current Email:</label><input class="form-control" type="email" id="setting_email" name="setting_email" value="play*******@gmail.com" disabled><span class="form-control-bg"></span>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_new_email">New Email:</label><input class="form-control" type="email" id="setting_new_email" name="setting_new_email" placeholder="New Email"><span class="form-control-bg"></span>
+                                                    </div>
+                                                </div>
+                                                <button class="mpl-link mt-30">Change Email</button>
+                                            </div>
+                                            <div class="mpl-snippet-fill" data-sr-item="user-setting">
+                                                <h2>Phone Number</h2>
+                                                <div class="row hgap-sm vgap-sm">
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_phone">Current Phone:</label><input class="form-control" type="text" id="setting_phone" name="setting_phone" value="+1 *** ** ** 11" disabled><span class="form-control-bg"></span>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6">
+                                                        <label for="setting_new_phone">New Phone:</label><input class="form-control" type="text" id="setting_new_phone" name="setting_new_phone" placeholder="New Phone"><span class="form-control-bg"></span>
+                                                    </div>
+                                                </div>
+                                                <button class="mpl-link mt-30">Change Phone</button>
+                                            </div>
+                                            <div class="mpl-snippet-fill" data-sr-item="user-setting">
+                                                <h2>Language</h2>
+                                                <select class="form-control custom-select" id="setting_language" name="setting_language">
+                                                    <option>Azərbaycan dili</option>
+                                                    <option>Bahasa Indonesia</option>
+                                                    <option>Bosanski</option>
+                                                    <option>Dansk</option>
+                                                    <option>Deutsch</option>
+                                                    <option>Eesti</option>
+                                                    <option selected="">English</option>
+                                                    <option>Español</option>
+                                                    <option>Esperanto</option>
+                                                    <option>Français</option>
+                                                    <option>Hrvatski</option>
+                                                    <option>Italiano</option>
+                                                    <option>Kiswahili</option>
+                                                    <option>Latviešu</option>
+                                                    <option>Lietuvių</option>
+                                                    <option>Magyar</option>
+                                                    <option>Moldovenească</option>
+                                                    <option>Nederlands</option>
+                                                    <option>Norsk</option>
+                                                    <option>O‘zbek</option>
+                                                    <option>Polski</option>
+                                                    <option>Português</option>
+                                                    <option>Română</option>
+                                                    <option>Shqip</option>
+                                                    <option>Slovenščina</option>
+                                                    <option>Suomi</option>
+                                                    <option>Svenska</option>
+                                                    <option>Tagalog</option>
+                                                    <option>Tiếng Việt</option>
+                                                    <option>Türkmen</option>
+                                                    <option>Türkçe</option>
+                                                    <option>Čeština</option>
+                                                    <option>Ελληνικά</option>
+                                                    <option>Адыгэбзэ</option>
+                                                    <option>Беларуская</option>
+                                                    <option>Български</option>
+                                                    <option>ГIалгIай мотт</option>
+                                                    <option>Ирон</option>
+                                                    <option>Монгол</option>
+                                                    <option>Русский</option>
+                                                    <option>Српски</option>
+                                                    <option>Українська</option>
+                                                    <option>ภาษาไทย</option>
+                                                    <option>日本語</option>
+                                                    <option>臺灣話</option>
+                                                    <option>한국어</option>
+                                                    <option>پنجابی</option>
+                                                </select><span class="form-control-bg"></span>
+                                                <button class="mpl-link mt-30">Save Regional Settings</button>
+                                            </div>
+                                            <div class="mpl-snippet-fill" data-sr-item="user-setting">
+                                                <h2>Appearance</h2>
+                                                <div class="custom-control custom-checkbox">
+                                                    <input class="custom-control-input" type="checkbox" id="setting_font" name="setting_font"><label class="custom-control-label" for="setting_font">Use Large Fonts</label></div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div role="tabpanel" class="tab-pane fade" id="notifications">
+                                        <form action="#">
+                                            <div class="mpl-snippet-fill">
+                                                <h2>Notifications</h2>
+                                                <div class="row vgap-sm">
+                                                    <div class="col-12">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="custom-control-input" type="checkbox" id="notification_update" name="notification_update" checked><label class="custom-control-label" for="notification_update">Update notifications</label></div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="custom-control-input" type="checkbox" id="notification_news" name="notification_news" checked><label class="custom-control-label" for="notification_news">News notifications</label></div>
+                                                    </div>
+                                                    <div class="col-12">
+                                                        <div class="custom-control custom-checkbox">
+                                                            <input class="custom-control-input" type="checkbox" id="notification_off" name="notification_off"><label class="custom-control-label" for="notification_off">Turn off all notifications.</label></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-auto-lg mpl-sidebar" data-sr=widget data-sr-duration=1200 data-sr-distance=20>
+                                <div class="mpl-widget mpl-widget-about">
+                                    <h4 class="mpl-widget-title">About</h4>
+                                    <div data-sr-item="widget">
+                                        <p>Ecce dabo Pinkman Isai OK? Sicut locutus est tibi, et datus est, et hic sine Semper consequat volumus ... et ille in urbe ista licet? Et infernus, ubi tu non Virginiae ornare vel ipsum. Ut enim Albuquerque et ille eum iure hic, et ego ducam te ad iustitiam.</p>
+                                    </div>
+                                </div>
+                                <div class="mpl-widget mpl-widget-location">
+                                    <h4 class="mpl-widget-title" data-sr-item="widget">Location</h4>
+                                    <div class="mpl-widget-map" data-sr-item="widget">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423284.59051352815!2d-118.41173249999999!3d34.0204989!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2z0JvQvtGBLdCQ0L3QtNC20LXQu9C10YEsINCa0LDQu9C40YTQvtGA0L3QuNGPLCDQodCo0JA!5e0!3m2!1sru!2sru!4v1430158354122"></iframe>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
                 <!-- Footer -->
                 <footer class="mpl-footer mpl-footer-parallax mpl-footer-social">
                     <div class="mpl-image" data-speed="0.9" data-img-position="50% 0%">

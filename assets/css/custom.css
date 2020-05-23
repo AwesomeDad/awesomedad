@@ -1,6 +1,0 @@
-.site-header--bottom{position:fixed;bottom:0px !important;}
-
-@media (min-width: 992px) {
-.site-header--bottom {position:fixed;bottom:0px !important;}
-
-}

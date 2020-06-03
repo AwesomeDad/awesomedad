@@ -752,19 +752,27 @@
                                     <div id="twitch-embed"></div>
 
                                     <!-- Load the Twitch embed script -->
-                                    <script src="https://embed.twitch.tv/embed/v1.js"></script>
-                                
-                                    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
-                                    <script type="text/javascript">
-                                      new Twitch.Embed("twitch-embed", {
-                                        width: 600,
-                                        height: 480,
-                                        channel: "awesomedad_fb",
-                                        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
-                                        parent: ["embed.example.com", "othersite.example.com"]
-                                      });
-                                    </script>
-                                    <!-- Video / End -->
+                                    <div class="twitch">
+                                        <div class="twitch-video">
+                                          <iframe
+                                            src="https://player.twitch.tv/?channel=awesomedad_fbh&parent=philna.sh&autoplay=false"
+                                            frameborder="0"
+                                            scrolling="no"
+                                            allowfullscreen="true"
+                                            height="100%"
+                                            width="100%">
+                                          </iframe>
+                                        </div>
+                                        <div class="twitch-chat">
+                                          <iframe
+                                            frameborder="0"
+                                            scrolling="no"
+                                            src="https://www.twitch.tv/embed/awesomedad_fb/chat?parent=philna.sh"
+                                            height="100%"
+                                            width="100%">
+                                          </iframe>
+                                        </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>

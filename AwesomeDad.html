@@ -749,17 +749,21 @@
                                     <h3 class="player-info-subtitle h5">AwesomeDad</h3><a href="" class="btn btn-twitch float-right"><i class="fab fa-facebook">&nbsp;</i>Følg Meg!</a>
                                     <h2 class="player-info-title text-uppercase">Livestream</h2>
                                     <!-- Video -->
-                                    <article class="stream has-post-thumbnail" data-id="playhearthstone" data-controls="true" data-provider="twitch" data-thumbnail="assets/img/samples/stream-img-01.jpg" data-setsize="true" data-easy-embed>
-                                        <div class="stream__thumbnail"><img src="assets/img/samples/stream-img-01.jpg" alt=""></div>
-                                        <div class="stream__icon"></div>
-                                        <div class="stream__header">
-                                            <div class="stream__info">
-                                                <div class="stream__avatar"><img src="assets/img/samples/streams-archive-avatar-01.jpg" alt=""></div>
-                                                <h6 class="stream__title">Davikinger plays &quot;Clash of eternity&quot; <span class="badge badge-danger badge-live">Live</span></h6>
-                                                <div class="stream__date">August 3rd, 2018</div>
-                                            </div>
-                                        </div>
-                                    </article>
+                                    <div id="twitch-embed"></div>
+
+                                    <!-- Load the Twitch embed script -->
+                                    <script src="https://embed.twitch.tv/embed/v1.js"></script>
+                                
+                                    <!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+                                    <script type="text/javascript">
+                                      new Twitch.Embed("twitch-embed", {
+                                        width: 600,
+                                        height: 480,
+                                        channel: "awesomedad_fb",
+                                        // only needed if your site is also embedded on embed.example.com and othersite.example.com 
+                                        parent: ["embed.example.com", "othersite.example.com"]
+                                      });
+                                    </script>
                                     <!-- Video / End -->
                                 </div>
                             </div>

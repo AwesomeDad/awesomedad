@@ -4,12 +4,12 @@
 <head>
     <!-- Basic Page Needs
 	================================================== -->
-    <title>AwesomeDad - Blogg</title>
+    <title>AwesomeDad</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="eSports Team &amp; Gaming HTML Template">
-    <meta name="author" content="Dan Fisher">
-    <meta name="keywords" content="esports team news HTML template">
+    <meta name="description" content="AwesomeDad - Gamer, streamer & innholdsprodusent">
+    <meta name="author" content="AwesomeDad">
+    <meta name="keywords" content="esports, gamer, streamer, twitch, youtube, facebook">
     <!-- Favicons
 	================================================== -->
     <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
@@ -32,33 +32,42 @@
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- Custom CSS-->
     <link href="assets/css/custom.css" rel="stylesheet">
+
+      <!--analytics-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168828530-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168828530-1');
+</script>
+
+
 </head>
 
-<body class="site-layout--horizontal preloader-is--active">
+<body class="site-layout--landing preloader-is--active bg-image bg-fixed bg--texture-05">
     <div class="site-wrapper">
         <!-- Header
 		================================================== -->
-        <header id="header" class="site-header site-header--bottom">
-            <!-- Logo - Image Based -->
-            <div class="header-logo header-logo--img">
-                <a href="index.html"><img src="assets/img/logo-v1.png" srcset="assets/img/logox2.png 2x" alt="AwesomeDad"></a>
-            </div>
-            <!-- Logo - Image Based / End -->
-            <!-- Main Navigation -->
+        <header id="header" class="site-header site-header--landing">
+            <!-- Main Navigation Left -->
             <nav class="main-nav">
                 <ul class="main-nav__list">
-                    <li class=""><a href="index.html">Hjem</a></li>
-                    <li class="active"><a href="#">Teamet</a>
+                    <li class=""><a href="home.html">Hjem</a></li>
+                    <li class=""><a href="#">Teamet</a>
                         <ul class="main-nav__sub">
                             
-                            
-                            <li class="active"><a href="AwesomeDad.html">AwesomeDad</a></li>
-                            <li class=""><a href="thevikingswag.html">The Viking Swag</a></li>
-                                    <li class=""><a href="Jossi.html">Jossi</a></li>
-                                  
-                        </ul>
-                    </li>
-                  <!-- <li class=""><a href="#">Matches</a>
+                                   
+										<li class=""><a href="AwesomeDad.html">AwesomeDad</a></li>
+										<li class=""><a href="thevikingswag.html">The Viking Swag</a></li>
+										<li class=""><a href="Jossi.html">Jossi</a></li>
+										
+								</ul>	
+                      
+                 <!--  
+                    <li class=""><a href="#">Matches</a>
                         <ul class="main-nav__sub">
                             <li class=""><a href="matches-scores.html">Match Scores</a></li>
                             <li class=""><a href="matches-upcoming.html">Upcoming Matches</a></li>
@@ -85,180 +94,51 @@
                             </li>
                             <li class=""><a href="matches-replay.html">Match Replay</a></li>
                         </ul>
-                    </li>--> 
+                    </li>-->
+                </ul>
+            </nav>
+            <!-- Main Navigation Left / End -->
+            <!-- Logo - Image Based -->
+            <div class="header-logo header-logo--img">
+                <a href="index.html"><img src="assets/img/logo-v1.png" srcset="assets/img/logo-v1.png 2x" alt="AwesomeDad"></a>
+            </div>
+            <!-- Logo - Image Based / End -->
+            <!-- Main Navigation Right -->
+            <nav class="main-nav">
+                <ul class="main-nav__list">
                     <li class=""><a href="blogg.html">Blogg</a>
-                        
+                       
                     </li>
                    
-                    <li class=""><a href="shop.html">Shop</a>
-                     
+                    <li class=""><a href="#">Butikk</a>
+                    
                     </li>
                 </ul>
             </nav>
-            <!-- Main Navigation / End -->
-            <!-- Header Actions -->
-            <div class="header-actions">
-                <!--<div class="header-player-info-navigation">
-                    <a href="#" class="disable">
-                        <svg role="img" class="df-icon df-icon--left-arrow">
-                            <use xlink:href="assets/img/necromancers.svg#left-arrow" />
-                        </svg>
-                    </a>
-                    <a href="team-player-2.html">
-                        <svg role="img" class="df-icon df-icon--right-arrow">
-                            <use xlink:href="assets/img/necromancers.svg#right-arrow" />
-                        </svg>
-                        <div class="header-player-info-navigation__card">
-                            <div class="header-player-info-navigation__avatar"><img src="assets/img/samples/header-player-info-navigation-photo.png" alt=""></div>
-                            <div class="header-player-info-navigation__body">
-                                <div class="header-player-info-navigation__name color-primary">April Summers</div>
-                                <div class="header-player-info-navigation__nickname">G-Huntress</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>-->
-                <div class="header-top-bar-toggle d-md-none hide">
-                    <svg role="img" class="df-icon df-icon--joystick">
-                        <use xlink:href="assets/img/necromancers.svg#joystick" />
-                    </svg>
-                    <svg role="img" class="df-icon df-icon--close">
-                        <use xlink:href="assets/img/necromancers.svg#close" />
-                    </svg>
-                </div>
-                <div class="header-social-toggle d-none d-md-block">
-                    <svg role="img" class="df-icon df-icon--thumb-up">
-                        <use xlink:href="assets/img/necromancers.svg#thumb-up" />
-                    </svg> <span class="header-social-toggle__plus">&nbsp;</span>
-                    <ul class="social-menu social-menu--header">
-                        <li><a href="https://discord.gg/eeWnMTe"><span class="link-subtitle">Discord</span>AwesomeFam</a></li>
-                        <li><a href="https://twitch.com/awesomedad_fb"><span class="link-subtitle">Twitch</span>AwesomeDad_FB</a></li>
-                        <li><a href="https://twitter.com/awesomedad_fb"><span class="link-subtitle">Twitter</span>AwesomeDad_FB</a></li>
-                        <li><a href="https://www.facebook.com/awesomedadno/"><span class="link-subtitle">Facebook</span>AwesomeDadNO</a></li>
-                    </ul>
-                </div>
-                <!--<div class="header-cart-toggle">
-                    <svg role="img" class="df-icon df-icon--bag">
-                        <use xlink:href="assets/img/necromancers.svg#bag" />
-                    </svg>
-                    <svg role="img" class="df-icon df-icon--close">
-                        <use xlink:href="assets/img/necromancers.svg#close" />
-                    </svg> <span class="header-cart-toggle__items-count">4</span></div>
-                <div class="header-search-toggle">
-                    <svg role="img" class="df-icon df-icon--search">
-                        <use xlink:href="assets/img/necromancers.svg#search" />
-                    </svg>
-                    <svg role="img" class="df-icon df-icon--search-close">
-                        <use xlink:href="assets/img/necromancers.svg#search-close" />
-                    </svg>
-                </div>
-                <div class="header-account hide">
-                    <div class="header-account__avatar"><img src="assets/img/samples/account-user-avatar.jpg" srcset="assets/img/samples/account-user-avatar@2x.jpg 2x" alt=""></div>
-                    <div class="header-account__body">Hei!
-                        <div class="header-account__name">Arnfinn Ingebrigtsen</div>
-                    </div>
-                    <div class="header-account__icon">
-                        <a href="shop-account-settings.html">
-                            <svg role="img" class="df-icon df-icon--account">
-                                <use xlink:href="assets/img/necromancers.svg#account" />
-                            </svg>
-                        </a>
-                        <a href="login-register.html">
-                            <svg role="img" class="df-icon df-icon--logout">
-                                <use xlink:href="assets/img/necromancers.svg#logout" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>-->
-                <div class="header-menu-toggle">
-                    <div class="header-menu-toggle__inner"><span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span></div>
-                </div>
-            </div>
-            <!-- Header Actions / End -->
+            <!-- Main Navigation Right / End -->
         </header>
         <!-- Header / End -->
         <!-- Content
-        ================================================== -->
-        <main class="site-content" id="wrapper">
-            <div class="widget-area widger-area--before-loop">
-                <div class="widget widget-carousel slick-slider">
-                  
-                    <article class="widget-carousel__item post slick-slide">
-                        <div class="post__thumbnail"><img src="blog/assets/sommer.jpg" alt=""></div>
-                        <div class="post__body">
-                            <ul class="post__cats list-unstyled">
-                                <li class="post__cats-item color-warning"><a href="#">Info</a></li>
-                            </ul>
-                            <h2 class="post__title"><a href="blog/sommer.html#disqus_thread">Sommerens sendeskjema</a></h2>
-                            <ul class="post__meta list-unstyled">
-                                <li class="post__meta-item post__meta-item--date"><a href="#">13.Juni, 2020</a></li>
-                            </ul>
-                        </div>
-                    </article>
-                    <article>
-                    <div class="widget-area widger-area--before-loop">
-                        <div class="widget widget-carousel slick-slider">
-                          
-                            <article class="widget-carousel__item post slick-slide">
-                                <div class="post__thumbnail"><img src="blog/assets/welcome.png" alt=""></div>
-                                <div class="post__body">
-                                    <ul class="post__cats list-unstyled">
-                                        <li class="post__cats-item color-warning"><a href="#">Info</a></li>
-                                    </ul>
-                                    <h2 class="post__title"><a href="blog/velkommen.html#disqus_thread">AwesomeDad - Velkommen</a></h2>
-                                    <ul class="post__meta list-unstyled">
-                                        <li class="post__meta-item post__meta-item--date"><a href="#">3.Juni, 2020</a></li>
-                                    </ul>
-                                </div>
-                            </article>
-                
-                </div>
-            </div>
-            
-       
-
-                
-                </div>
-            </div>
-            <div class="content blog-layout--style-1">
-
-                <article class="post has-post-thumbnail">
-                    <div class="post__thumbnail">
-                        <a href="blog/velkommen.html"><img src="blog/assets/sommer.jpg" alt=""></a>
-                    </div>
-                    <div class="post__body">
-                        <div class="post__header">
-                            <ul class="post__cats list-unstyled">
-                                <li class="post__cats-item color-warning"><a href="#">Info</a></li>
-                            </ul>
-                            <h2 class="post__title h4"><a href="blog/sommer.html">Sommerens sendeskjemaet </a></h2>
-                            <ul class="post__meta list-unstyled">
-                                <li class="post__meta-item post__meta-item--date"><a href="#">13.Juni, 2020</a></li>
-                            </ul>
-                        </div>
-                        <div class="post__excerpt">Her er foreløpig sendeskjema for sommeren!</div>
-                    </div>
-                </article>
-                
-                <article class="post has-post-thumbnail">
-                    <div class="post__thumbnail">
-                        <a href="blog/velkommen.html"><img src="blog/assets/welcome.png" alt=""></a>
-                    </div>
-                    <div class="post__body">
-                        <div class="post__header">
-                            <ul class="post__cats list-unstyled">
-                                <li class="post__cats-item color-warning"><a href="#">Info</a></li>
-                            </ul>
-                            <h2 class="post__title h4"><a href="blog/velkommen.html">AwesomeDad - Velommen</a></h2>
-                            <ul class="post__meta list-unstyled">
-                                <li class="post__meta-item post__meta-item--date"><a href="#">3.Juni, 2020</a></li>
-                            </ul>
-                        </div>
-                        <div class="post__excerpt">Velkommen til AwesomeDad`s og AwesomeSquad`s nye hjem!</div>
-                    </div>
-                </article>
-                
-            </div>
+		================================================== -->
+        <main class="site-content text-center" id="wrapper">
+            <div class="site-content__center">
+                <h1 class="text-white landing-title"><span class="subtitle landing-subtitle">Gaming, Streaming & innholdsprodusent</span>AwesomeDad</h1><a href="AwesomeDad.html" class="btn btn-primary btn-lg btn--landing"><span>Lær mer!</span></a></div>
         </main>
+        <!-- Footer
+		================================================== -->
+        <footer id="footer" class="footer text-center">
+            <ul class="social-menu social-menu--landing social-menu--landing-glitch">
+                <li><a href="https://www.facebook.com/awesomedadno/" target="_blank"><i class="fab fa-facebook-square"></i> <span class="link-subtitle">Facebook</span>AwesomeDad</a></li>
+                <li><a href="https://twitter.com/awesomedad_FB" target="_blank"><i class="fab fa-twitter"></i> <span class="link-subtitle">Twitter</span>AwesomeDad</a></li>
+                <li><a href="https://twitch.com/awesomedad_fb" target="_blank"><i class="fab fa-twitch"></i> <span class="link-subtitle">Twitch</span>AwesomeDad</a></li>
+                <li><a href="https://discord.gg/eeWnMTe" target="_blank"><i class="fab fa-discord"></i> <span class="link-subtitle">Discord</span>Awesome Fam</a></li>
+            </ul>
+        </footer>
+        <!-- Footer / End -->
+        <div class="landing-detail landing-detail--left"><span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span></div>
+        <div class="landing-detail-cover landing-detail-cover--left"><span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span></div>
+        <div class="landing-detail landing-detail--right"><span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span></div>
+        <div class="landing-detail-cover landing-detail-cover--right"><span>&nbsp;</span> <span>&nbsp;</span> <span>&nbsp;</span></div>
         <!-- Overlay -->
         <div class="site-overlay"></div>
         <!-- Overlay / End -->
@@ -365,7 +245,7 @@
         </div>
         <!-- Cart Panel / End -->
         <!-- Search Panel -->
-        <div class="search-panel">
+       <!-- <div class="search-panel">
             <div class="search-panel__content">
                 <form action="#" id="header-search-form" class="search-form search-form--header">
                     <input type="text" class="form-control" value="" placeholder="What are you looking for...?">
@@ -375,65 +255,118 @@
         <!-- Menu Panel -->
         <div class="menu-panel">
             <ul class="menu-panel__mobile-bar list-unstyled d-md-none">
-                <li class="mobile-bar-item"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_1" role="button" aria-expanded="false" aria-controls="mobile_collapse_1">Linker <span class="main-nav__toggle">&nbsp;</span></a>
+                <li class="mobile-bar-item"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_1" role="button" aria-expanded="false" aria-controls="mobile_collapse_1">Main Links <span class="main-nav__toggle">&nbsp;</span></a>
                     <div id="mobile_collapse_1" class="collapse mobile-bar-item__body">
                         <!-- Mobile Navigation -->
                         <nav class="mobile-nav">
                             <ul class="mobile-nav__list">
-                                <li class=""><a href="index.html">Hjem</a>
-                                   
-                                </li>
-                                <li class="active"><a href="#">Teamet</a>
+                                <li class="active"><a href="#">Main Pages</a>
                                     <ul class="mobile-nav__sub">
-                                        <li class=""><a href="AwesomeDad.html">AwesomeDad</a></li>
-                                        <li class=""><a href="thevikingswag.html">The Viking Swag</a></li>
-                                        <li class=""><a href="jossi.html">Jossi</a></li>
-                                       
+                                        <li class="active"><a href="index.html">Landing Image</a></li>
+                                        <li class=""><a href="index-2.html">Landing Video</a></li>
+                                        <li class=""><a href="home.html">Hjem</a></li>
+                                        <li class=""><a href="blog-post.html">Post Page</a></li>
+                                        <li class=""><a href="blog-1.html">News v1</a></li>
+                                        <li class=""><a href="blog-2.html">News v2</a></li>
+                                        <li class=""><a href="blog-3.html">News v3</a></li>
+                                        <li class=""><a href="blog-4.html">News v4</a></li>
+                                        <li class=""><a href="shop-account-settings.html">Account Settings</a></li>
+                                        <li class=""><a href="shop-account-orders.html">Account Orders</a></li>
+                                        <li class=""><a href="login-register.html">Login & Register</a></li>
+                                        <li class=""><a href="features-about-us.html">About Us</a></li>
+                                        <li class=""><a href="features-contact-us.html">Contact Us</a></li>
+                                        <li class=""><a href="features-faqs.html">FAQs</a></li>
+                                        <li class=""><a href="management-and-staff.html">Management & Staff</a></li>
+                                        <li class=""><a href="streams-archive.html">Streams Page</a></li>
+                                        <li class=""><a href="partners.html">Our Partners</a></li>
+                                        <li class=""><a href="features-shortcodes.html">Shortcodes</a></li>
+                                        <li class=""><a href="features-typography.html">Typography</a></li>
+                                        <li class=""><a href="features-icons.html">Icons <span class="badge badge-danger">New</span></a></li>
+                                        <li class=""><a href="features-bg-1.html">Backgrounds</a></li>
                                     </ul>
                                 </li>
-                                <li class=""><a href="blogg.html">Blogg</a>
-                                   
+                                <li class=""><a href="#">Team Pages</a>
+                                    <ul class="mobile-nav__sub">
+                                        <li class=""><a href="team-selection-1.html">Team Selection v1</a></li>
+                                        <li class=""><a href="team-selection-2.html">Team Selection v2</a></li>
+                                        <li class=""><a href="team-selection-3.html">Team Selection v3</a></li>
+                                        <li class=""><a href="team-selection-4.html">Team Selection v4</a></li>
+                                        <li class=""><a href="team-overview.html">Team Overview v1</a></li>
+                                        <li class=""><a href="team-overview-2.html">Team Overview v2</a></li>
+                                        <li><a href="team-overview_slide=1.html">Team Statistics</a></li>
+                                        <li><a href="team-overview_slide=2.html">Team Achievements</a></li>
+                                        <li><a href="team-overview_slide=3.html">Team Matches</a></li>
+                                    </ul>
                                 </li>
-                                
-                                <li class=""><a href="shop.html">Butikk</a>
-                                 
+                                <li class=""><a href="#">Player Pages</a>
+                                    <ul class="mobile-nav__sub">
+                                        <li><a href="team-player-1.html">Player Overview</a></li>
+                                        <li><a href="team-player-1_slide=1.html">Player Statistics</a></li>
+                                        <li><a href="team-player-1_slide=2.html">Player Achievements</a></li>
+                                        <li><a href="team-player-1_slide=3.html">Player Hardware</a></li>
+                                        <li><a href="team-player-1_slide=4.html">Player Stream</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="#">Match Pages</a>
+                                    <ul class="mobile-nav__sub">
+                                        <li class=""><a href="matches-scores.html">Match Scores</a></li>
+                                        <li class=""><a href="matches-upcoming.html">Upcoming Matches</a></li>
+                                        <li class=""><a href="matches-standings.html">Standings</a></li>
+                                        <li class=""><a href="matches-overview-1.html">Match Overview v1</a></li>
+                                        <li class=""><a href="matches-overview-2.html">Match Overview v2</a></li>
+                                        <li class=""><a href="matches-stats-1.html">Match Stats v1</a></li>
+                                        <li class=""><a href="matches-stats-2.html">Match Stats v2</a></li>
+                                        <li class=""><a href="matches-stats-3.html">Match Stats v3</a></li>
+                                        <li class=""><a href="matches-lineups-1.html">Match Lineups v1</a></li>
+                                        <li class=""><a href="matches-lineups-2.html">Match Lineups v2</a></li>
+                                        <li class=""><a href="matches-lineups-3.html">Match Lineups v3</a></li>
+                                        <li class=""><a href="matches-replay.html">Match Replay</a></li>
+                                    </ul>
+                                </li>
+                                <li class=""><a href="#">Shop Pages</a>
+                                    <ul class="mobile-nav__sub">
+                                        <li class=""><a href="shop.html">Shop Page v1</a></li>
+                                        <li class=""><a href="shop-2.html">Shop Page v2</a></li>
+                                        <li class=""><a href="shop-product.html">Product Page</a></li>
+                                        <li class=""><a href="shop-checkout.html">Checkout Page</a></li>
+                                    </ul>
                                 </li>
                             </ul>
                         </nav>
                         <!-- Mobile Navigation / End -->
                     </div>
                 </li>
-                <li class="mobile-bar-item"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_2" role="button" aria-expanded="false" aria-controls="mobile_collapse_2">Sosiale Nettverk <span class="main-nav__toggle">&nbsp;</span></a>
+                <li class="mobile-bar-item"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_2" role="button" aria-expanded="false" aria-controls="mobile_collapse_2">Social Links <span class="main-nav__toggle">&nbsp;</span></a>
                     <div id="mobile_collapse_2" class="collapse mobile-bar-item__body">
                         <ul class="social-menu social-menu--mobile-bar">
-                            <li><a href="https://www.facebook.com/awesomedadno/"><span>Facebook</span></a></li>
-                            <li><a href="https://twitter.com/awesomedad_fb"><span>Twitter</span></a></li>
-                            <li><a href="twitch.com/awesomedad_fb"><span>Twitch</span></a></li>
-                            <li><a href="discord.gg/eeWnMTe"><span>Discord</span></a></li>
+                            <li><a href="https://www.facebook.com/AwesomeDadNO"><span>Facebook</span></a></li>
+                            <li><a href="https://twitter.com/AwesomeDad_FB"><span>Twitter</span></a></li>
+                            <li><a href="https://twitch.tv/AwesomeDad_FB"><span>Twitch</span></a></li>
+                            <li><a href="https://discord.gg/eeWnMTe"><span>Discord</span></a></li>
                         </ul>
                     </div>
                 </li>
-                <li class="mobile-bar-item mobile-bar-item--info"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_3" role="button" aria-expanded="false" aria-controls="mobile_collapse_3">Ta kontakt! <span class="main-nav__toggle">&nbsp;</span></a>
+                <li class="mobile-bar-item mobile-bar-item--info"><a class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_3" role="button" aria-expanded="false" aria-controls="mobile_collapse_3">Get in Touch! <span class="main-nav__toggle">&nbsp;</span></a>
                     <div id="mobile_collapse_3" class="collapse mobile-bar-item__body">
                         <div class="mobile-bar-item__inner">
                             <ul class="list-unstyled">
                                 <li class="info-box">
-                                    <div class="info-box__label">Arnfinn Ingebrigtsen - Rekruterer</div>
-                                    <div class="info-box__content"><a href="mailto:AWESOMDEDADFB@GMAIL.COM">awesomedadfb<span class="color-success">@</span>gmail.com</a></div>
+                                    <div class="info-box__label">Max Parker - Recruiter</div>
+                                    <div class="info-box__content"><a href="mailto:#">mp-recruit<span class="color-success">@</span>necromancers.com</a></div>
                                 </li>
                                 <li class="info-box">
-                                    <div class="info-box__label">Ønsker du å bli vår partner?</div>
-                                    <div class="info-box__content"><a href="mailto:AWESOMDEDADFB@GMAIL.COM">awesomedadfb<span class="color-success">@</span>gmail.com</a></div>
+                                    <div class="info-box__label">Be our partner!</div>
+                                    <div class="info-box__content"><a href="mailto:#">partners<span class="color-success">@</span>necromancers.com</a></div>
                                 </li>
                                 <li class="info-box">
-                                    <div class="info-box__label">Generelle spørsmål</div>
-                                    <div class="info-box__content"><a href="mailto:AWESOMDEDADFB@GMAIL.COM">awesomedadfb<span class="color-success">@</span>gmail.com</a></div>
+                                    <div class="info-box__label">General inquiries</div>
+                                    <div class="info-box__content"><a href="mailto:#">inquiries<span class="color-success">@</span>necromancers.com</a></div>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </li>
-                <li class="mobile-bar-item mobile-bar-item--partners"><a id="mobile_collapse_4h" class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_4" role="button" aria-expanded="false" aria-controls="mobile_collapse_4">Partnere! <span class="main-nav__toggle">&nbsp;</span></a>
+                <li class="mobile-bar-item mobile-bar-item--partners"><a id="mobile_collapse_4h" class="mobile-bar-item__header collapsed" data-toggle="collapse" href="#mobile_collapse_4" role="button" aria-expanded="false" aria-controls="mobile_collapse_4">Our Partners <span class="main-nav__toggle">&nbsp;</span></a>
                     <div id="mobile_collapse_4" class="collapse mobile-bar-item__body">
                         <div class="mobile-bar-item__inner">
                             <ul class="widget-partners-mobile-carousel">
@@ -444,21 +377,22 @@
                         </div>
                     </div>
                 </li>
-                
+                <li class="mobile-bar-item"><a class="mobile-bar-item__header" href="shop-account-settings.html">Account Settings</a></li>
+                <li class="mobile-bar-item"><a class="mobile-bar-item__header" href="login-register.html">Logout</a></li>
             </ul>
             <div class="menu-panel__top-bar">
                 <div class="top-bar-filter">
-                    <label class="top-bar-filter__label">Turneringer - Kommer</label>
+                    <label class="top-bar-filter__label">Competitions</label>
                     <select class="cs-select">
-                        <option value="all" selected="selected">Alle Turneringer</option>
-                        <option value="x2018">Xenowatch 2018 Tournament test</option>
-                        <option value="xwleague">Xenowatch West League test</option>
-                        <option value="xeleague">Xenowatch East League test</option>
-                        <option value="xusacup">Xenowatch USA Cup test</option>
+                        <option value="all" selected="selected">All Competitions</option>
+                        <option value="x2018">Xenowatch 2018 Tournament</option>
+                        <option value="xwleague">Xenowatch West League</option>
+                        <option value="xeleague">Xenowatch East League</option>
+                        <option value="xusacup">Xenowatch USA Cup</option>
                     </select>
                 </div>
                 <ul class="top-bar-carousel">
-                    <li class="top-bar-carousel__headline x2018"><span>Xenowatch 2018 Tournament test</span></li>
+                    <li class="top-bar-carousel__headline x2018"><span>Xenowatch 2018 Tournament</span></li>
                     <li class="top-bar-carousel__item x2018">
                         <div class="match-score-inline">
                             <div class="match-score-inline__body">
@@ -1309,7 +1243,7 @@
                     <div id="dl-menu" class="dl-menuwrapper">
                         <!-- <button class="dl-trigger">Open Menu</button> -->
                         <ul class="dl-menu dl-menuopen">
-                            <li class=""><a href="index.html">Hjem</a></li>
+                            <li class=""><a href="home.html">Hjem</a></li>
                             <li class=""><a href="team-selection-2.html">Teamet</a>
                                 <ul class="dl-submenu">
                                  
@@ -1320,7 +1254,7 @@
 									
                                 </ul>
                             </li>
-                           <!-- <li class=""><a href="#">Matches</a>
+                            <li class=""><a href="#">Matches</a>
                                 <ul class="dl-submenu">
                                     <li class=""><a href="matches-scores.html">Match Scores</a></li>
                                     <li class=""><a href="matches-upcoming.html">Upcoming Matches</a></li>
@@ -1348,11 +1282,10 @@
                                     <li class=""><a href="matches-replay.html">Match Replay</a></li>
                                 </ul>
                             </li>
-                            -->
-                            <li class=""><a href="blogg.html">Blogg</a></li>
-                           
-                            <li class=""><a href="shop.html">Butikk</a>
-                             
+                            <li class=""><a href="blog-1.html">News</a></li>
+                            
+                            <li class=""><a href="shop.html">Shop</a>
+                               
                             </li>
                         </ul>
                     </div>
@@ -1362,16 +1295,16 @@
                         <div class="col-md-12 col-lg-6 col-xl-5">
                             <!-- Widget: Text -->
                             <section class="widget widget-text">
-                                <h5 class="widget__title">Bli med i teamet?</h5>
+                                <h5 class="widget__title">Join our team</h5>
                                 <div class="widget__content">
-                                    <p>Vi leter alltid etter nye talenter som kan representere oss. Ønsker du å bli med, send oss gjerne en e-post med informasjon om deg selv, så tar vi kontakt!</p>
+                                    <p>We’re always looking for new talent to join our teams. If you wanna join us, just send us and email and we’ll get back to you!</p>
                                     <div class="info-box">
-                                        <div class="info-box__label">Arnfinn Ingerbrgtsen - Rekruterer</div>
-                                        <div class="info-box__content"><a href="mailto:awesomedadfb@gmail.com">awesomdedadfb<span class="color-success">@</span>gmail.com</a></div>
+                                        <div class="info-box__label">Max Parker - Recruiter</div>
+                                        <div class="info-box__content"><a href="mailto:#">mp-recruit<span class="color-success">@</span>necromancers.com</a></div>
                                     </div>
                                     <div class="info-box">
-                                        <div class="info-box__label">Ønsker du å bli en partner?</div>
-                                        <div class="info-box__content"><a href="mailto:awesomedadfb@gmail.com">awesomedadfb<span class="color-success">@</span>gmail.com</a></div>
+                                        <div class="info-box__label">Be our partner!</div>
+                                        <div class="info-box__content"><a href="mailto:#">partners<span class="color-success">@</span>necromancers.com</a></div>
                                     </div>
                                 </div>
                             </section>
@@ -1380,13 +1313,12 @@
                         <div class="col-md-12 col-lg-6 col-xl-5 offset-xl-2 mt-5 mt-lg-0">
                             <!-- Widget: Contact Info -->
                             <section class="widget widget-contact-info">
-                                <h5 class="widget__title">Kontakt oss</h5>
+                                <h5 class="widget__title">Contact Info</h5>
                                 <div class="widget__content">
-                                    <p>
-                                        Har du andre spørsmål, send oss en e-post og husk å følge og like AwesomeDad i sosiale medier for å være oppdatert! </p>
+                                    <p>If you have any questions, just send us and email and don’t forget to follow and like all our social accounts to keep updated!</p>
                                     <div class="info-box">
-                                        <div class="info-box__label">Generelle spørsmål</div>
-                                        <div class="info-box__content"><a href="mailto:awesomedadfb@gmail.com">awesomedadfb<span class="color-success">@</span>gmail.com.com</a></div>
+                                        <div class="info-box__label">General inquiries</div>
+                                        <div class="info-box__content"><a href="mailto:#">inquiries<span class="color-success">@</span>necromancers.com</a></div>
                                     </div>
                                     <ul class="social-menu social-menu--default">
                                         <li>
@@ -1411,7 +1343,7 @@
                         <div class="col-md-12">
                             <!-- Widget: Partners Carousel -->
                             <section class="widget widget-partners-carousel">
-                                <h5 class="widget__title">Våre partnere</h5>
+                                <h5 class="widget__title">Our Partners</h5>
                                 <div class="widget__content">
                                     <ul>
                                         <li><img src="assets/img/samples/partner-carousel-img-01.png" alt=""></li>
